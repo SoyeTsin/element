@@ -1,0 +1,116 @@
+export default {
+  el: {
+    colorpicker: {
+      confirm: 'doekdingh',
+      clear: 'hoengq'
+    },
+    datepicker: {
+      now: 'mwhneix',
+      today: 'ngoenzneix',
+      cancel: 'siu',
+      clear: 'hoengq',
+      confirm: 'doekdingh',
+      selectDate: 'seiz senjaeu',
+      selectTime: 'genj seizgan',
+      startDate: 'ngoenz haidaeuz',
+      startTime: 'seizgan haidaeuz',
+      endDate: 'ngoenzsat',
+      endTime: 'sat seizgan',
+      prevYear: 'bigonq',
+      nextYear: 'bilaeng',
+      prevMonth: 'ndwen gonq',
+      nextMonth: 'ndwen laeng',
+      year: 'bi',
+      month1: '1 nyied',
+      month2: '2 nyied',
+      month3: '3 nyied',
+      month4: '4 nyied',
+      month5: '5 nyied',
+      month6: '6 nyied',
+      month7: '7 nyied',
+      month8: '8 nyied',
+      month9: '9 nyied',
+      month10: '10 nyied',
+      month11: '11 nyied',
+      month12: '12 nyied',
+      // week: 'moix baez',
+      weeks: {
+        sun: 'ngoenz ',
+        mon: 'it',
+        tue: 'song',
+        wed: 'sam',
+        thu: 'seiq',
+        fri: 'haj',
+        sat: 'roek'
+      },
+      months: {
+        jan: 'ndwen it',
+        feb: 'ndwen song',
+        mar: 'ndwen sam',
+        apr: 'ndwen seiq',
+        may: 'ndwen haj',
+        jun: 'ndwen roek',
+        jul: 'ndwen caet',
+        aug: 'ndwen bet',
+        sep: 'ndwen gouj',
+        oct: 'ndwen cib',
+        nov: 'ndwen cib’it',
+        dec: 'ndwen cibngeih'
+      }
+    },
+    select: {
+      loading: 'gya daengh dawz',
+      noMatch: 'soqgawq mbouj doxhab',
+      noData: 'mboujmiz soqgawq',
+      placeholder: 'cingj genjleh'
+    },
+    cascader: {
+      noMatch: 'soqgawq mbouj doxhab',
+      loading: 'gya daengh dawz ',
+      placeholder: 'cingj genjleh',
+      noData: 'camhmbouj miz soqgawq'
+    },
+    pagination: {
+      goto: 'bae',
+      pagesize: 'diuz / yieb',
+      total: 'gungh {total} diuz',
+      pageClassifier: 'yieb'
+    },
+    messagebox: {
+      title: 'daez',
+      confirm: 'doekdingh',
+      cancel: 'siu',
+      error: 'Gij soqgawq lae haeuj mbouj habfap!'
+    },
+    upload: {
+      deleteTip: 'anq delete ca ndaej bae',
+      delete: 'cawz',
+      preview: 'cazyawj dozbenq',
+      continue: 'cienzhwnj'
+    },
+    table: {
+      emptyText: 'camhmbouj miz soqgawq',
+      confirmFilter: 'genjleh',
+      resetFilter: 'cungz guh',
+      clearFilter: 'daengxcungq',
+      sumText: 'gyoeb'
+    },
+    tree: {
+      emptyText: 'camhmbouj miz soqgawq'
+    },
+    transfer: {
+      noMatch: 'soqgawq mbouj doxhab',
+      noData: 'mboujmiz soqgawq',
+      titles: ['liedbiuj 1', 'liedbiuj 2'],
+      filterPlaceholder: 'cingj yinh haeuj ra aeu neiyungz',
+      noCheckedFormat: 'gungh {total} hangh',
+      hasCheckedFormat: 'gaenq senj {checked}/{total} hangh'
+    },
+    image: {
+      error: 'Gyadangq saetbaih'
+    },
+    pageHeader: {
+      title: 'dauq'
+    }
+  }
+};
